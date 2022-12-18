@@ -1,0 +1,81 @@
+body {
+  background-image:url("http://i.stack.imgur.com/jGlzr.png");
+}
+  #coin {
+    margin-left: 500px;
+  margin-right: auto;
+  margin-top: 150px;
+  }
+   #gm {
+    margin-left: 200px;
+  margin-right: auto;
+  margin-top: 150px;
+  }
+#add {
+    margin-left: 500px;
+  margin-right: auto;
+  margin-top: -10px;
+    display:block;
+    height:105px;
+    width:105px;
+
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaltubM0Y3Lk3RZas3QDST_Pvxg5pOi-w3uw&usqp=CAU");
+
+    border-radius: 50px;
+font-size: 90px
+  }
+  #gmunlock {
+    margin-left: 800px;
+  margin-right: auto;
+  margin-top: -105px;
+    display:block;
+    height:105px;
+    width:105px;
+    background-image:url("https://cdn-icons-png.flaticon.com/512/1803/1803612.png");
+    border-radius: 50px;
+    background-position: center;
+    background-size: 115px;
+  }
+#pocet {
+  margin-left: 500px;
+  margin-right: 1300px;
+  margin-top: 0px;
+  display: block;
+  font-size: 30px;
+  background-color: white;
+  padding: 10px;
+  white-space: nowrap;
+  border-radius: 20px;
+}
+#infogm {
+  margin-left: 800px;
+  margin-right: 950px;
+  margin-bottom: -10px;
+ 
+  font-size: 30px;
+  background-color: white;
+  padding: 10px;
+  white-space: nowrap;
+  border-radius: 20px;
+  position: absolute;
+  left: -10px;
+  top: 235px;
+}
+
+#value {
+  display: block;
+  
+text-align: center;
+}
+
+#level {
+  margin-left: 780px;
+  margin-right: 970px;
+  margin-top: 10px;
+  display: block;
+  font-size: 30px;
+  background-color: white;
+  padding: 10px;
+  white-space: nowrap;
+  border-radius: 20px;
+}
