@@ -23,6 +23,7 @@
     var intervalId;
     var score = 0;
     var cink = new Audio ("https://cdn.pixabay.com/download/audio/2022/01/18/audio_8db1f1b5a5.mp3?filename=snd_fragment_retrievewav-14728.mp3");
+    var starting = new Audio ("https://cdn.pixabay.com/download/audio/2022/03/10/audio_bbde917866.mp3?filename=wine-glass-clink-36036.mp3");
      function startTimer() {
       // Check if the interval is already running
       if (!intervalId && cas == 30) {
@@ -44,6 +45,8 @@ function randombarva(){
   const colors = ["blue", "red", "yellow", "green"];
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
   guess.style.backgroundColor = randomColor;
+  starting.play();
+
 }
 
 
