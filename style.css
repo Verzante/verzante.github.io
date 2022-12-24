@@ -6,6 +6,10 @@
 width: 50px;
 height: 50px;
 background-color: red;
+ z-index: 1;
+
+
+
 }
 
 
@@ -16,6 +20,7 @@ background-color: red;
   width: 50px;
 height: 50px;
 background-color: blue;
+ z-index: 1;
 }
 
 #yellow{
@@ -25,6 +30,7 @@ background-color: blue;
   width: 50px;
 height: 50px;
 background-color: yellow;
+ z-index: 1;
 }
 
 #green{
@@ -34,6 +40,7 @@ background-color: yellow;
   width: 50px;
 height: 50px;
 background-color: green;
+ z-index: 1;
 }
 
 
@@ -44,6 +51,7 @@ background-color: green;
   margin-left: 700px;
 transform: scale(1.2);
 background-color: red;
+ z-index: 1;
 }
 
 
@@ -53,6 +61,7 @@ background-color: red;
   margin-left: 780px;
   transform: scale(1.2);
 background-color: blue;
+ z-index: 1;
 }
 
 #yellow:hover{
@@ -61,6 +70,7 @@ background-color: blue;
   margin-left: 860px;
   transform: scale(1.2);
 background-color: yellow;
+ z-index: 1;
 }
 
 #green:hover{
@@ -70,6 +80,7 @@ background-color: yellow;
   
 transform: scale(1.2);
 background-color: green;
+ z-index: 1;
 }
 
 
@@ -79,6 +90,7 @@ background-color: green;
   margin-left: 700px;
 transform: scale(1.1);
 background-color: red;
+ z-index: 1;
 }
 
 
@@ -88,6 +100,7 @@ background-color: red;
   margin-left: 780px;
   transform: scale(1.1);
 background-color: blue;
+ z-index: 1;
 }
 
 #yellow:active{
@@ -96,6 +109,7 @@ background-color: blue;
   margin-left: 860px;
   transform: scale(1.1);
 background-color: yellow;
+ z-index: 1;
 }
 
 #green:active{
@@ -105,6 +119,7 @@ background-color: yellow;
   
 transform: scale(1.1);
 background-color: green;
+ z-index: 1;
 }
 
 #guess{
@@ -114,11 +129,12 @@ background-color: green;
   width: 290px;
 height: 290px;
 background-color: black;
+ z-index: 1;
 }
 
 #casovac{
   position: absolute;
-  margin-top: 200px;
+  margin-top: 180px;
   margin-left: 710px;
   
 font-size: 60px;
@@ -138,61 +154,168 @@ font-family: Comic Sans MS;
 #start{
   position: absolute;
   margin-top: 300px;
-  margin-left: 1500px;
+  margin-left: 1200px;
   width: 100px;
 height: 100px;
 background-color: limegreen;
 font-size: 20px;
 font-family: Comic Sans MS;
+ z-index: 1;
 }
 
 #start:hover{
   position: absolute;
   margin-top: 300px;
-  margin-left: 1500px;
+  margin-left: 1200px;
   transform: scale(1.2);
 background-color: limegreen;
 font-size: 20px;
 font-family: Comic Sans MS;
+ z-index: 1;
 }
 
 #start:active{
   position: absolute;
   margin-top: 300px;
-  margin-left: 1500px;
+  margin-left: 1200px;
   transform: scale(1.1);
 background-color: limegreen;
 font-size: 20px;
 font-family: Comic Sans MS;
+ z-index: 1;
 }
 
 #reset{
   position: absolute;
   margin-top: 500px;
-  margin-left: 1500px;
+  margin-left: 1200px;
   width: 100px;
 height: 100px;
 background-color: red;
 font-size: 20px;
 font-family: Comic Sans MS;
+ z-index: 1;
 }
 
 #reset:hover{
   position: absolute;
   margin-top: 500px;
-  margin-left: 1500px;
+  margin-left: 1200px;
   transform: scale(1.2);
 background-color: red;
 font-size: 20px;
 font-family: Comic Sans MS;
+ z-index: 1;
 }
 
 #reset:active{
   position: absolute;
   margin-top: 500px;
-  margin-left: 1500px;
+  margin-left: 1200px;
   transform: scale(1.1);
 background-color: red;
 font-size: 20px;
 font-family: Comic Sans MS;
+ z-index: 1;
+}
+
+#pozadi1{
+  position:absolute;
+  margin-left: 460px;
+  margin-top: -50px;
+ width: 800px;
+ height: 1000px;
+}
+
+#bp1{
+  position:absolute;
+  margin-left: 690px;
+  margin-top: 690px;
+ width: 70px;
+ height: 70px;
+ z-index: 1;
+}
+
+
+#bp2{
+  position:absolute;
+  margin-left: 770px;
+  margin-top: 690px;
+ width: 70px;
+ height: 70px;
+ z-index: 1;
+}
+
+
+#bp3{
+  position:absolute;
+  margin-left: 850px;
+  margin-top: 690px;
+ width: 70px;
+ height: 70px;
+ z-index: 1;
+}
+
+#bp4{
+  position:absolute;
+  margin-left: 930px;
+  margin-top: 690px;
+ width: 70px;
+ height: 70px;
+ z-index: 1;
+}
+
+#bp5{
+position:absolute;
+  margin-left: 692px;
+  margin-top: 292px;
+ width: 306px;
+ height: 306px;
+ z-index: 1;
+}
+
+#sp1{
+  position:absolute;
+  margin-left: 675px;
+  margin-top: 75px;
+ width: 335px;
+ height: 220px;
+ z-index: 1;
+}
+
+#bp6{
+position:absolute;
+  margin-left: 1192px;
+  margin-top: 490px;
+ width: 118px;
+ height: 120px;
+ z-index: 1;
+}
+
+#bp7{
+position:absolute;
+  margin-left: 1192px;
+  margin-top: 290px;
+ width: 118px;
+ height: 120px;
+ z-index: 1;
+}
+
+#tp7{
+  position:absolute;
+  margin-left: 50px;
+  margin-top: 60px;
+ width: 500px;
+ height: 800px;
+ z-index: 1;
+}
+
+#tutorial{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 70px;
+  
+font-size: 30px;
+font-family: Comic Sans MS;
+z-index: 1;
 }
