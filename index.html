@@ -9,6 +9,16 @@
 </style>
 
 <body>
+  <img src="https://toppng.com/public/uploads/thumbnail/papyrus-paper-115500931971w0dascvpp.png" id="tp7">
+    <img src="https://freepngimg.com/thumb/decorative_border/153824-golden-frame-photos-download-hd.png" id="bp7">
+  <img src="https://freepngimg.com/thumb/decorative_border/153824-golden-frame-photos-download-hd.png" id="bp6">
+  <img src="https://i.pinimg.com/originals/c3/8a/a6/c38aa60c01461d12917c06a0d7d5c4e6.png" id="sp1">
+  <img src="https://pngimage.net/wp-content/uploads/2018/06/schilderijlijst-png-4.png" id="bp1">
+  <img src="https://pngimage.net/wp-content/uploads/2018/06/schilderijlijst-png-4.png" id="bp2">
+  <img src="https://pngimage.net/wp-content/uploads/2018/06/schilderijlijst-png-4.png" id="bp3">
+  <img src="https://pngimage.net/wp-content/uploads/2018/06/schilderijlijst-png-4.png" id="bp4">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/008/477/257/small/rectangular-gold-frame-free-png.png" id="bp5">
+  <img src="https://media.istockphoto.com/id/1306955172/vector/stone-tablet-panel-textured-cartoon-frame-with-cracked-elements-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=jSfR5sQa2PGMvPmx1wC4oklD9AN3_OyK0RPHeZc0kOY=" id="pozadi1">
   <button id="red" onclick="randombarvaRED();"></button>
   <button id="blue" onclick="randombarvaBLUE();"></button>
   <button id="yellow"onclick="randombarvaYELLOW();"></button>
@@ -18,6 +28,7 @@
   <button id="reset" onclick="restart();">Restart</button>
   <p id="casovac"> Čas: 30s</p>
   <p id="skore"> Skore: 0</p>
+  <p id="tutorial">Klikni na tlačítko "Start". <br> Po kliknutí se zobrazí <br> náhodná barva v černém poli.<br> <br>Tvým úkolem je co nejrychleji<br>barvu zaznačit. Po zaznačení se<br> vylosuje další barva.<br> <br>Nasbírej tak co nejvíce skore za <br>30 sekund. <br><br> Tlačítko restart vynuluje skore <br>a zresetuje čas na 30 sek.</p>
   <script>
     var cas = 30;
     var intervalId;
@@ -41,11 +52,13 @@
 
 
 function randombarva(){
+  if (cas == 30){
   const guess = document.getElementById("guess");
   const colors = ["blue", "red", "yellow", "green"];
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
   guess.style.backgroundColor = randomColor;
   starting.play();
+   }
 
 }
 
